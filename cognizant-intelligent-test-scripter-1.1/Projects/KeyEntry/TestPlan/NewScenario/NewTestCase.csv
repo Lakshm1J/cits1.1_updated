@@ -1,0 +1,35 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://webdevptc.ams1907.com/opsysui/opsyspage/opsysLogin,,
+2,userId,"Click the [<Object>] ",Set,@ext1ldj,,OPSYS
+3,password,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@Y2hpdHR1MjE= Enc,,OPSYS
+4,password1,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@Y2hpdHR1MjE= Enc,,OPSYS
+ZBRTJAN5,Sign in,"Click the [<Object>] ",Click,,,OPSYS
+6,Data Capture1,"Click the [<Object>] ",Click,,,OPSYS
+7,IDC,"Click the [<Object>] ",Click,,,OPSYS
+8,idc_sd_shp_hdr_pkg1_id_fld,"Click the [<Object>] ",Click,,,IDC
+9,Execute,,,,,
+10,idc_sd_shp_hdr_pkg1_id_fld,Enter the value [<Data>] in the Field [<Object>],Set,@1ZBRTJAN0366667809,,IDC
+11,idc_sd_shp_hdr_src_fld,Enter the value [<Data>] in the Field [<Object>],Set,@w,,IDC
+12,idc_sd_shp_hdr_dst_cny_fld,Enter the value [<Data>] in the Field [<Object>],Set,@ca,,IDC
+13,idc_sd_shp_hdr_svc_lvl_fld,Enter the value [<Data>] in the Field [<Object>],Set,@28,,IDC
+14,idc_sd_shp_hdr_bill_typ_fld,Enter the value [<Data>] in the Field [<Object>],Set,@03,,IDC
+15,idc_sd_shp_hdr_decl_val_fld,Enter the value [<Data>] in the Field [<Object>],Set,@0.00,,IDC
+16,idc_sd_shp_hdr_cstm_val_fld,Enter the value [<Data>] in the Field [<Object>],Set,@100.00,,IDC
+17,idc_sd_shp_hdr_dty_type_fld,Enter the value [<Data>] in the Field [<Object>],Set,@01,,IDC
+18,idc_sd_shp_hdr_paymt_fld,"Click the [<Object>] ",Click,,,IDC
+19,idc_sd_shp_hdr_paymt_fld1,Enter the value [<Data>] in the Field [<Object>],Set,@P/P,,IDC
+20,idc_sd_shp_hdr_dim_wt_osze_fld,Enter the value [<Data>] in the Field [<Object>],Set,@0.0,,IDC
+21,idc_sd_shp_hdr_pkg1_wt_fld,"Click the [<Object>] ",Click,,,IDC
+22,idc_sd_shp_hdr_pkg1_wt_fld1,Enter the value [<Data>] in the Field [<Object>],Set,@3.0,,IDC
+23,idc_sd_shp_hdr_shp_dt_fld,Enter the value [<Data>] in the Field [<Object>],Set,@100418,,IDC
+24,idc_sd_shpr_acct_fld,"Click the [<Object>] ",Click,,,IDC
+25,idc_sd_shp_hdr_shp_dt_fld,"Click the [<Object>] ",Click,,,IDC
+26,idc_sd_shp_hdr_srt_dt_fld,"Click the [<Object>] ",Click,,,IDC
+27,idc_sd_shp_hdr_srt_dt_fld,Enter the value [<Data>] in the Field [<Object>],Set,@100418,,IDC
+28,idc_sd_shpr_acct_fld1,"Click the [<Object>] ",Click,,,IDC
+29,idc_sd_shpr_acct_fld,Enter the value [<Data>] in the Field [<Object>],Set,@OPSQAT,,IDC
+30,idc_sd_impr_acct_fld,"Click the [<Object>] ",Click,,,IDC
+31,idc_sd_impr_acct_fld,Enter the value [<Data>] in the Field [<Object>],Set,@0001892895,,IDC
+32,idc_sd_shp_ftr_desc_fld,"Click the [<Object>] ",Click,,,IDC
+33,idc_sd_shp_ftr_desc_fld,Enter the value [<Data>] in the Field [<Object>],Set,@test,,IDC
+34,F6 - Accept keyed entry,"Click the [<Object>] ",Click,,,IDC

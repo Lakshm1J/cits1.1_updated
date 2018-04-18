@@ -1,0 +1,12 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://webdevptc.ams1907.com/opsysui/opsyspage/opsysLogin,,
+2,userId,"Click the [<Object>] ",sendKeysToElement,,,OPSYS
+3,password,"Click the [<Object>] ",Click,,,OPSYS
+4,password,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@Y2hpdHR1MjE= Enc,,OPSYS
+5,password1,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@Y2hpdHR1MjE= Enc,,OPSYS
+6,Sign in,"Click the [<Object>] ",Click,,,OPSYS
+7,Browser,Send Keys [<Data>]  to Window.,sendKeysToWindow,@ALT+F3,,
+8,fa fa-lg fa-fw fa-desktop,"Click the [<Object>] ",Click,,,OPSYS
+9,IDC,"Click the [<Object>] ",Click,,,OPSYS
+10,idc_sd_shp_hdr_shp_id_fld,"Click the [<Object>] ",Click,,,IDC
+11,idc_sd_shp_hdr_shp_id_fld,Enter the value [<Data>] in the Field [<Object>],Set,@SPRN01Q3LNQ,,IDC

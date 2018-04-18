@@ -1,0 +1,354 @@
+<Root type="OR" ref="KeyEntry">
+  <Page title="OPSYS Web Portal" ref="OPSYS">
+    <ObjectGroup ref="userId">
+      <Object frame="" ref="userId">
+        <Property value="userId" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;login-form&quot;)/fieldset/section/label[2]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/article/div/div/form/fieldset/section/label[2]/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#login-form > fieldset > section > label.input > input[name=&quot;userId&quot;]" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Data Capture">
+      <Object frame="" ref="Data Capture">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Data Capture" ref="link_text" pref="3"/>
+        <Property value="id(&quot;left-panel&quot;)/nav/ul/li[2]/a" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/aside/nav/ul/li[2]/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#left-panel > nav > ul > li[value=&quot;0&quot;] > a[title=&quot;datacapture&quot;]" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Log out">
+      <Object frame="" ref="Log out">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Log out" ref="link_text" pref="3"/>
+        <Property value="id(&quot;header&quot;)/div[2]/div/ul/li/a" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/header/div[2]/div/ul/li/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#header > div.pull-right > div.user-profile.open > ul.dropdown-menu > li[value=&quot;0&quot;] > a[title=&quot;Log out&quot;]" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Yes">
+      <Object frame="" ref="Yes">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="bot2-Msg1" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;bot2-Msg1&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div/div/div/button[2]" ref="xpath" pref="5"/>
+        <Property value="btn btn-default btn-sm botTempo" ref="class" pref="6"/>
+        <Property value="#bot2-Msg1" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="password">
+      <Object frame="" ref="password">
+        <Property value="password" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;login-form&quot;)/fieldset/section[2]/label[2]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/article/div/div/form/fieldset/section[2]/label[2]/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#login-form > fieldset > section:nth-child(2) > label.input > input[name=&quot;password&quot;]" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="password1">
+      <Object frame="" ref="password1">
+        <Property value="password" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;login-form&quot;)/fieldset/section[2]/label[2]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/article/div/div/form/fieldset/section[2]/label[2]/input" ref="xpath" pref="5"/>
+        <Property value="valid" ref="class" pref="6"/>
+        <Property value="#login-form > fieldset > section:nth-child(2) > label.input.state-success > input.valid" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sign in">
+      <Object frame="" ref="Sign in">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="Login" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;Login&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/article/div/div/form/footer/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-primary" ref="class" pref="6"/>
+        <Property value="#Login" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Data Capture1">
+      <Object frame="" ref="Data Capture1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;left-panel&quot;)/nav/ul/li[2]/a/span" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/aside/nav/ul/li[2]/a/span" ref="xpath" pref="5"/>
+        <Property value="menu-item-parent" ref="class" pref="6"/>
+        <Property value="#left-panel > nav > ul > li[value=&quot;0&quot;] > a[title=&quot;datacapture&quot;] > span.menu-item-parent" ref="css" pref="7"/>
+        <Property value="span" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="IDC">
+      <Object frame="" ref="IDC">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="IDC" ref="link_text" pref="3"/>
+        <Property value="id(&quot;left-panel&quot;)/nav/ul/li[2]/ul/li/a" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/aside/nav/ul/li[2]/ul/li/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#left-panel > nav > ul > li.open > ul > li[value=&quot;0&quot;] > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="IDC" ref="IDC">
+    <ObjectGroup ref="idc_sd_shp_hdr_pkg1_id_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_pkg1_id_fld">
+        <Property value="idc_sd_shp_hdr_pkg1_id_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_pkg1_id_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_pkg1_id_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[5]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_pkg1_id_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shp_hdr_src_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_src_fld">
+        <Property value="idc_sd_shp_hdr_src_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_src_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_src_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[7]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_src_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shp_hdr_dst_cny_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_dst_cny_fld">
+        <Property value="idc_sd_shp_hdr_dst_cny_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_dst_cny_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_dst_cny_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[10]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_dst_cny_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shp_hdr_svc_lvl_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_svc_lvl_fld">
+        <Property value="idc_sd_shp_hdr_svc_lvl_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_svc_lvl_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_svc_lvl_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[11]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_svc_lvl_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shp_hdr_bill_typ_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_bill_typ_fld">
+        <Property value="idc_sd_shp_hdr_bill_typ_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_bill_typ_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_bill_typ_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[12]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_bill_typ_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shp_hdr_decl_val_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_decl_val_fld">
+        <Property value="idc_sd_shp_hdr_decl_val_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_decl_val_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_decl_val_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[13]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_decl_val_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shp_hdr_cstm_val_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_cstm_val_fld">
+        <Property value="idc_sd_shp_hdr_cstm_val_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_cstm_val_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_cstm_val_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[15]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_cstm_val_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shp_hdr_dty_type_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_dty_type_fld">
+        <Property value="idc_sd_shp_hdr_dty_type_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_dty_type_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_dty_type_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[17]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_dty_type_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shp_hdr_paymt_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_paymt_fld">
+        <Property value="idc_sd_shp_hdr_paymt_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_paymt_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_paymt_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[20]/label/input" ref="xpath" pref="5"/>
+        <Property value="errorFld" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_paymt_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shp_hdr_paymt_fld1">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_paymt_fld1">
+        <Property value="idc_sd_shp_hdr_paymt_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_paymt_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_paymt_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[20]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_paymt_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shp_hdr_dim_wt_osze_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_dim_wt_osze_fld">
+        <Property value="idc_sd_shp_hdr_dim_wt_osze_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_dim_wt_osze_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_dim_wt_osze_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[24]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_dim_wt_osze_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shp_hdr_pkg1_wt_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_pkg1_wt_fld">
+        <Property value="idc_sd_shp_hdr_pkg1_wt_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_pkg1_wt_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_pkg1_wt_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[22]/label/input" ref="xpath" pref="5"/>
+        <Property value="errorFld" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_pkg1_wt_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shp_hdr_pkg1_wt_fld1">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_pkg1_wt_fld1">
+        <Property value="idc_sd_shp_hdr_pkg1_wt_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_pkg1_wt_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_pkg1_wt_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[22]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_pkg1_wt_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shp_hdr_shp_dt_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_shp_dt_fld">
+        <Property value="idc_sd_shp_hdr_shp_dt_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_shp_dt_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_shp_dt_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[26]/label/input" ref="xpath" pref="5"/>
+        <Property value="errorFld" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_shp_dt_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shpr_acct_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shpr_acct_fld">
+        <Property value="idc_sd_shpr_acct_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shpr_acct_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shpr_acct_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div[2]/fieldset/div[2]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_shpr_acct_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shp_hdr_srt_dt_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_srt_dt_fld">
+        <Property value="idc_sd_shp_hdr_srt_dt_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_srt_dt_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_srt_dt_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[4]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_srt_dt_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shpr_acct_fld1">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shpr_acct_fld1">
+        <Property value="idc_sd_shpr_acct_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shpr_acct_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shpr_acct_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div[2]/fieldset/div[2]/label/input" ref="xpath" pref="5"/>
+        <Property value="errorFld" ref="class" pref="6"/>
+        <Property value="#idc_sd_shpr_acct_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_impr_acct_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_impr_acct_fld">
+        <Property value="idc_sd_impr_acct_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_impr_acct_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_impr_acct_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div[3]/fieldset/div[2]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_impr_acct_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="idc_sd_shp_ftr_desc_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_ftr_desc_fld">
+        <Property value="idc_sd_shp_ftr_desc_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_ftr_desc_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_ftr_desc_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div[5]/fieldset/div/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_ftr_desc_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="F6 - Accept keyed entry">
+      <Object frame="idc_single_ui_frame" ref="F6 - Accept keyed entry">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="/html/body/div[6]/div[3]/div/button[2]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[6]/div[3]/div/button[2]" ref="xpath" pref="5"/>
+        <Property value="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-state-hover ui-state-focus" ref="class" pref="6"/>
+        <Property value="html > body > div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable > div.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix > div.ui-dialog-buttonset > button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only.ui-state-hover.ui-state-focus" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

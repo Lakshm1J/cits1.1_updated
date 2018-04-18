@@ -1,0 +1,90 @@
+<Root type="OR" ref="opsys">
+  <Page title="OPSYS Web Portal" ref="OPSYS">
+    <ObjectGroup ref="userId">
+      <Object frame="" ref="userId">
+        <Property value="userId" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;login-form&quot;)/fieldset/section/label[2]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/article/div/div/form/fieldset/section/label[2]/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#login-form > fieldset > section > label.input > input[name=&quot;userId&quot;]" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="password">
+      <Object frame="" ref="password">
+        <Property value="password" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;login-form&quot;)/fieldset/section[2]/label[2]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/article/div/div/form/fieldset/section[2]/label[2]/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#login-form > fieldset > section:nth-child(2) > label.input > input[name=&quot;password&quot;]" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="password1">
+      <Object frame="" ref="password1">
+        <Property value="password" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;login-form&quot;)/fieldset/section[2]/label[2]/input" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/article/div/div/form/fieldset/section[2]/label[2]/input" ref="xpath" pref="5"/>
+        <Property value="valid" ref="class" pref="6"/>
+        <Property value="#login-form > fieldset > section:nth-child(2) > label.input.state-success > input.valid" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sign in">
+      <Object frame="" ref="Sign in">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="Login" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;Login&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/article/div/div/form/footer/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-primary" ref="class" pref="6"/>
+        <Property value="#Login" ref="css" pref="7"/>
+        <Property value="button" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="fa fa-lg fa-fw fa-desktop">
+      <Object frame="" ref="fa fa-lg fa-fw fa-desktop">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;left-panel&quot;)/nav/ul/li[2]/a/i" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/aside/nav/ul/li[2]/a/i" ref="xpath" pref="5"/>
+        <Property value="fa fa-lg fa-fw fa-desktop" ref="class" pref="6"/>
+        <Property value="#left-panel > nav > ul > li[value=&quot;0&quot;] > a[title=&quot;datacapture&quot;] > i.fa.fa-lg.fa-fw.fa-desktop" ref="css" pref="7"/>
+        <Property value="i" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="IDC">
+      <Object frame="" ref="IDC">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="IDC" ref="link_text" pref="3"/>
+        <Property value="id(&quot;left-panel&quot;)/nav/ul/li[2]/ul/li/a" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/aside/nav/ul/li[2]/ul/li/a" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#left-panel > nav > ul > li.open > ul > li[value=&quot;0&quot;] > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="IDC" ref="IDC">
+    <ObjectGroup ref="idc_sd_shp_hdr_shp_id_fld">
+      <Object frame="idc_single_ui_frame" ref="idc_sd_shp_hdr_shp_id_fld">
+        <Property value="idc_sd_shp_hdr_shp_id_fld" ref="name" pref="1"/>
+        <Property value="idc_sd_shp_hdr_shp_id_fld" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="id(&quot;idc_sd_shp_hdr_shp_id_fld&quot;)" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/div/div/fieldset/div[6]/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#idc_sd_shp_hdr_shp_id_fld" ref="css" pref="7"/>
+        <Property value="input" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>
